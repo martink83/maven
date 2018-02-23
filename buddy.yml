@@ -2,7 +2,7 @@
   trigger_mode: ON_EVERY_PUSH
   ref_name: (.*)
   actions:
-  - action: "Execute: pwd"
+  - action: "Execute: pwd" 
     type: "BUILD"
     docker_image_name: "library/ubuntu"
     docker_image_tag: "16.04"
