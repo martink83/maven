@@ -1,6 +1,6 @@
 - pipeline: "build"
   trigger_mode: ON_EVERY_PUSH
-  ref_name: "master"
+  ref_name: "*"
   actions:
   - action: "Execute: pwd"
     type: "BUILD"
