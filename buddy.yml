@@ -1,11 +1,12 @@
-- pipeline: "build"
-  trigger_mode: ON_EVERY_PUSH
-  ref_name: (.*)
+- pipeline: "master"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/master"
   actions:
-  - action: "Execute: pwd"
+  - action: "Execute: ls"
     type: "BUILD"
     docker_image_name: "library/ubuntu"
-    docker_image_tag: "16.04"
+    docker_image_tag: "22.04"
     execute_commands:
-    - "pwd"
-    trigger_condition: "ALWAYS"
+    - "ls"
