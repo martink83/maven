@@ -1,6 +1,6 @@
 - pipeline: "master"
   events:
-  - type: "PUSHs" 
+  - type: "PUSH" 
     refs:
     - "refs/heads/master"
   actions:
