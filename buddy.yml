@@ -4,7 +4,7 @@
     refs: 
     - "refs/heads/master"
   actions:
-  - action: "Execute: ls"
+  - action: "Execute: ls" 
     type: "BUILD"
     docker_image_name: "library/ubuntu"
     docker_image_tag: "22.04"
