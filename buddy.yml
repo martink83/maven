@@ -1,7 +1,7 @@
 - pipeline: "master"
   events:
   - type: "PUSH" 
-    refs:
+    refs: 
     - "refs/heads/master"
   actions:
   - action: "Execute: ls"
