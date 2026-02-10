@@ -1,4 +1,4 @@
-- pipeline: "master"
+- pipeline: "master1"
   events:
   - type: "PUSH" 
     refs: 
