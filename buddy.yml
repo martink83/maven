@@ -9,4 +9,4 @@
     docker_image_name: "library/ubuntu"
     docker_image_tag: "22.04"
     execute_commands:
-    - "pwdd"
+    - "pwd"
